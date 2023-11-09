@@ -1,6 +1,6 @@
 <?php
 
-$db_name = 'mysql:host=localhost;dbname=food-db';
+$db_name = 'mysql:host=localhost;dbname=coffee-db';
 $user_name = 'root';
 $user_password = '';
 
