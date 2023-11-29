@@ -63,8 +63,8 @@ if(isset($message)){
          <?php
             }else{
          ?>
-            <p class="name">VUI LÒNG ĐĂNG NHẬP</p>
-            <a href="login.php" class="btn">ĐĂNG NHẬP</a>
+            <p class="name">Vui lòng đăng nhập</p>
+            <a href="login.php" class="btn">Đăng nhập</a>
          <?php
           }
          ?>

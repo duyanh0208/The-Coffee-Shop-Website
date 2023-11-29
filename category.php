@@ -37,7 +37,7 @@ include 'control/add_cart.php';
 
    <section class="products">
 
-      <h1 class="title">Danh mục</h1>  
+      <h1 class="title">Menu</h1>  
    <!-- <-- <select name="products" id="products">
          <option value="">Sắp xếp theo giá</option>
          <option value="1">Từ cao đến thấp</option>

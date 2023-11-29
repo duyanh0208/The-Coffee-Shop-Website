@@ -36,8 +36,8 @@ if(isset($_SESSION['user_id'])){
 <!-- header section ends -->
 
 <div class="heading">
-   <h3>Về chúng tôi</h3>
-   <p><a href="home.php">Trang chủ</a> <span> / Về chúng tôi</span></p>
+   <h3>About Us</h3>
+   <p><a href="home.php">Home</a> <span> / About Us</span></p>
 </div>
 
 <!-- about section starts  -->
@@ -55,7 +55,7 @@ if(isset($_SESSION['user_id'])){
          <p>Chọn cà phê, chọn tâm trạng của bạn. <br>
             nhà trong ngõ, ra đời năm 1990.
          </p>
-         <a href="menu.php" class="btn">Thực đơn</a>
+         <a href="menu.php" class="btn">Menu</a>
       </div>
 
    </div>
@@ -68,23 +68,18 @@ if(isset($_SESSION['user_id'])){
 
 <section class="steps">
 
-   <h1 class="title">team</h1>
+   <h1 class="title">Team</h1>
 
    <div class="box-container">
 
       <div class="box">
-         <img src="images/t1.jpg" alt="">
-         <h3>Đức Huy</h3>   
+         <img src="images/team1.jpg" alt="">
+         <h3>Bùi Đào Duy Anh</h3>   
       </div>
 
       <div class="box">
-         <img src="images/t2.jpg" alt="">
-         <h3>Khánh Huyền</h3> 
-      </div>
-
-      <div class="box">
-         <img src="images/t3.jpg" alt="">
-         <h3>Thảo Hương</h3>
+         <img src="images/team2.jpg" alt="">
+         <h3>Ngô Yến Vi</h3> 
       </div>
 
    </div>
@@ -97,14 +92,13 @@ if(isset($_SESSION['user_id'])){
 
 <section class="reviews">
 
-   <h1 class="title">Đánh giá</h1>
+   <h1 class="title">Rate</h1>
 
    <div class="swiper reviews-slider">
 
       <div class="swiper-wrapper">
 
          <div class="swiper-slide slide">
-            <img src="images/pic-1.png" alt="">
             <p>Đồ khi ship đến vẫn còn thơm nóng. Lần đầu đặt thử mà ưng quá trời luôn</p>
             <div class="stars">
                <i class="fas fa-star"></i>
@@ -113,11 +107,10 @@ if(isset($_SESSION['user_id'])){
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>Trấn Thành</h3>
+            <h3>Customer 1</h3>
          </div>
 
          <div class="swiper-slide slide">
-            <img src="images/Khánh.jpg" alt="">
             <p>Ngon, hợp với giá tiền. Đồ ăn nhanh nhưng lại không hề bị ngấy, cảm giác đỡ béo</p>
             <div class="stars">
                <i class="fas fa-star"></i>
@@ -126,11 +119,10 @@ if(isset($_SESSION['user_id'])){
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>Khánh không béo ị</h3>
+            <h3>Customer 2</h3>
          </div>
 
          <div class="swiper-slide slide">
-            <img src="images/Nghĩa.jpg" alt="">
             <p>Không gian quán chill lắm. Cuối tuần nào cũng phải ra ngồi, bận quá thì đặt về vậy ^^</p>
             <div class="stars">
                <i class="fas fa-star"></i>
@@ -139,11 +131,10 @@ if(isset($_SESSION['user_id'])){
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>Minh Nghĩa</h3>
+            <h3>Customer 3</h3>
          </div>
 
          <div class="swiper-slide slide">
-            <img src="images/Kim.jpg" alt="">
             <p>Mới đặt về thử thấy đồ ăn cũng ngon :> lần sau mình sẽ rủ Huỳn ra quán</p>
             <div class="stars">
                <i class="fas fa-star"></i>
@@ -152,12 +143,11 @@ if(isset($_SESSION['user_id'])){
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>Kim 73kg</h3>
+            <h3>Customer 4</h3>
          </div>
 
          <div class="swiper-slide slide">
-            <img src="images/pic-5.png" alt="">
-            <p>Quán tủ của tui ^^ Tuần nào cũng phải ủng hộ vài bữa </p>
+            <p>Ngon, hợp với giá tiền. Đồ ăn nhanh nhưng lại không hề bị ngấy, cảm giác đỡ béo</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -165,12 +155,11 @@ if(isset($_SESSION['user_id'])){
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>Alicu</h3>
+            <h3>Customer 5</h3>
          </div>
 
          <div class="swiper-slide slide">
-            <img src="images/pic-7.jpg" alt="">
-            <p>rất thích cách xử lí đơn của quán, giao hàng cũng nhanh nữa</p>
+            <p>Ngon, hợp với giá tiền. Đồ ăn nhanh nhưng lại không hề bị ngấy, cảm giác đỡ béo</p>
             <div class="stars">
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
@@ -178,7 +167,7 @@ if(isset($_SESSION['user_id'])){
                <i class="fas fa-star"></i>
                <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>Kim Taehyung</h3>
+            <h3>Customer 6</h3>
          </div>
 
       </div>

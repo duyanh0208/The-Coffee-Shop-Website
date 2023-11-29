@@ -50,7 +50,7 @@ include 'control/add_cart.php';
                <a href="menu.html" class="btn">see menus</a>
             </div> -->
             <div class="image">
-               <img src="images/bg1.png" alt="">
+               <img src="images/bgg.png" alt="">
             </div>
          </div>
 
@@ -86,28 +86,28 @@ include 'control/add_cart.php';
 
 <section class="category">
 
-   <h1 class="title">Danh mục</h1>
+   <h1 class="title">Menu</h1>
 
    <div class="box-container">
 
       <a href="category.php?category=trà" class="box">
-         <img src="images/cat-1.png" alt="">
-         <h3>Trà</h3>
+         <img src="images/tea.png" alt="">
+         <h3>Tea</h3>
       </a>
 
       <a href="category.php?category=coffee" class="box">
-         <img src="images/cat2.png" alt="">
-         <h3>coffee</h3>
+         <img src="images/coffee.png" alt="">
+         <h3>Coffee</h3>
       </a>
 
       <a href="category.php?category=sinh tố" class="box">
-         <img src="images/cat3.png" alt="">
-         <h3>Sinh tố</h3>
+         <img src="images/smoothie.png" alt="">
+         <h3>Smoothie</h3>
       </a>
 
       <a href="category.php?category=tráng miệng" class="box">
-         <img src="images/cat4.png" alt="">
-         <h3>Món tráng miệng</h3>
+         <img src="images/food.png" alt="">
+         <h3>Food</h3>
       </a>
 
    </div>
@@ -119,7 +119,7 @@ include 'control/add_cart.php';
 
 <section class="products">
 
-   <h1 class="title">mới nhất</h1>
+   <h1 class="title">News</h1>
 
    <div class="box-container">
 

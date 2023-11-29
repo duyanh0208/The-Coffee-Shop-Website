@@ -3,60 +3,58 @@
 <div class="info-container">
     <div class="content-wrapper">
         <div class="heading-h1 primary-font">
-            Liên hệ
+            Contact
         </div>
         <div class="heading-h2">
             +123 456 789 <br>
             uetSE@gmail.com <br>
-            144 Xuân Thủy, HN
+            144 Xuan Thuy, Ha Noi
         </div>
     </div>
 
     <div class="content-wrapper">
         <div class="heading-h1 primary-font">
-            Địa điểm
+            Address
         </div>
         <div>
-            <a href="https://goo.gl/maps/V4D1H4k58aKKZaDT8" class="heading-h2">HN, Xuân Thủy <br></a>
-            <a href="https://goo.gl/maps/eeHDvdV1bpq4s2Ja9" class="heading-h2">SG, Bùi Thị Xuân <br></a>
-            <a href="https://goo.gl/maps/LhqXeMSRtuR9dhjr5" class="heading-h2">HN, Tôn Thất Thuyết </a>
+            <a href="https://goo.gl/maps/V4D1H4k58aKKZaDT8" class="heading-h2">Ha Noi, Xuan Thuy <br></a>
+            <a href="https://goo.gl/maps/eeHDvdV1bpq4s2Ja9" class="heading-h2">Sai Gon, Bui Thi Xuan <br></a>
+            <a href="https://goo.gl/maps/LhqXeMSRtuR9dhjr5" class="heading-h2">Ha Noi, Ton That Thuyet </a>
         </div>
     </div>
 
-    <a href="../home.php"><img class="footer-logo" src="images/logoft.png" alt=""></a>
-
     <div class="content-wrapper">
         <div class="heading-h1 primary-font">
-            Thông tin
+            Information
         </div>
         <div>
-            <a class="heading-h2" href="../menu.php">Thực đơn</a> <br>
-            <a class="heading-h2" href="../about.php">Về chúng tôi</a> <br>
-            <a class="heading-h2" href="../contact.php">Liên hệ</a> <br>
+            <a class="heading-h2" href="../menu.php">Menu</a> <br>
+            <a class="heading-h2" href="../about.php">About Us</a> <br>
+            <a class="heading-h2" href="../contact.php">Contact</a> <br>
         </div>
     </div>
 
     <div class="content-wrapper">
         <div class="heading-h1 primary-font">
-            Giờ mở cửa
+            Open time
         </div>
         <div class="day-hour-outer-container">
             <div class="day-hour-inner-container">
-                <div class="week-day heading-h2">Thứ 2 - 6</div>
+                <div class="week-day heading-h2">Monday to Friday</div>
                 <div class="icon-time-container">
                     <img src="images/star-transparent.png" alt="">
                     <div class="heading-h2"> 09-22</div>
                 </div>
             </div>
             <div class="day-hour-inner-container">
-                <div class="week-day heading-h2">Thứ 7</div>
+                <div class="week-day heading-h2">Saturday</div>
                 <div class="icon-time-container">
                     <img src="images/star-transparent.png" alt="">
                     <div class="heading-h2"> 09-23</div>
                 </div>
             </div>
             <div class="day-hour-inner-container">
-                <div class="week-day heading-h2">Chủ nhật</div>
+                <div class="week-day heading-h2">Sunday</div>
                 <div class="icon-time-container">
                     <img src="images/star-transparent.png" alt="">
                     <div class="heading-h2"> 09-24</div>

@@ -69,7 +69,7 @@ section{
    justify-content: center;
    gap:1rem;
    flex-flow: column;
-   background-color: var(--bg);
+   background-color: white;
    min-height: 20rem;
 }
    
@@ -105,8 +105,9 @@ section{
 }
 
 .btn{
-   background-color: var(--yellow);
-   color:var(--black);
+   background-color: var(--black);
+   color:var(--white);
+   border-radius: 20px;
 }
 
 .delete-btn{
@@ -172,7 +173,7 @@ section{
    position: sticky;
    top:0; left:0; right:0;
    z-index: 1000;
-   background-color: var(--black);
+   background-color: #333333;
 }
 
 .header .flex{
@@ -320,7 +321,7 @@ section{
 }
 
 .category {
-   background-color: var(--bg);
+   background-color: white;
 }
 
 .category .box-container{
@@ -344,14 +345,14 @@ section{
 }
 
 .category .box-container .box h3{
-   font-size: 2rem;
+   font-size: 3rem;
    margin-top: 1.5rem;
    color:var(--black);
    text-transform: capitalize;
 }
 
 .category .box-container .box:hover{
-   background-color: var(--yellow);
+   background-color: #EEEEEE;
 }
 
 /* .category .box-container .box:hover img{
@@ -359,11 +360,11 @@ section{
 } */
 
 .category .box-container .box:hover h3{
-   color:var(--white);
+   color:var(--black);
 }
 
 .products {
-   background-color: var(--bg);
+   background-color: white;
 }
 
 .products .filt{
@@ -413,7 +414,6 @@ section{
 }
 
 .products .box-container .box{
-   /* border:var(--border); */
    padding: 1.5rem;
    position: relative;
    overflow: hidden;
@@ -424,6 +424,7 @@ section{
    width: 100%;
    /* object-fit: contain; */
    margin-bottom: 1rem;
+   border-radius: 30px;
 }
 
 .products .box-container .box .fa-eye,
@@ -434,6 +435,7 @@ section{
    width: 4.5rem;
    line-height: 4.3rem;
    border:var(--border);
+   border-radius: 30px;
    background-color: var(--white);
    cursor: pointer;
    font-size: 2rem;
@@ -499,9 +501,10 @@ section{
 }
 
 .products .box-container .box .flex .qty{
-   padding:1rem;
+   padding:0.5rem;
    border:var(--border);
-   font-size: 1.8rem;
+   border-radius: 10px;
+   font-size: 2rem;
    color:var(--black);
 }
 
@@ -584,11 +587,11 @@ section{
 }
 
 .about {
-   background-color: var(--bg);
+   background-color: white;
 }
 .about .row{
    margin: 0 auto;
-   background-color: var(--bg);
+   background-color: #EEEEEE;
    display: flex;
    text-align: center;
    align-items: center;
@@ -624,7 +627,7 @@ section{
 }
 
 .steps {
-   background-color: var(--bg);
+   background-color: white;
 }
 
 .steps .box-container{
@@ -643,7 +646,8 @@ section{
 
 .steps .box-container .box img{
    height: auto;
-   width: 100%;
+   width: 30%;
+   border-radius: 100px;
    object-fit: contain;
    margin-bottom: 1rem;
 }
@@ -662,12 +666,13 @@ section{
 }
 
 .reviews {
-   background-color: var(--bg);
+   background-color: #EEEEEE;
 }
 
 .reviews .slide{
    margin-bottom: 4rem;
    border:var(--border);
+   border-radius: 20px;
    padding:2rem;
    text-align: center;
 }
@@ -688,7 +693,6 @@ section{
 .reviews .slide .stars{
    display: inline-block;
    padding:.5rem 1.5rem;
-   border:var(--border);
 }
 
 .reviews .slide .stars i{
@@ -1068,7 +1072,7 @@ section{
 
 
 footer{
-   background-color: var(--bg);
+   background-color: #333333;
 }
 
 footer a{
@@ -1100,7 +1104,7 @@ footer .content-wrapper{
 footer .heading-h1{
    font-size: 25px;
    line-height: 1.28em;
-   color: #855043;
+   color: var(--yellow);
    font-weight: 500;
    margin: 25px 0;
    -ms-word-wrap: break-word;
@@ -1111,7 +1115,7 @@ footer .heading-h2{
    font-size: 17px;
    line-height: 1.41em;
    font-weight: 400;
-   color: #8a7c78;
+   color: var(--white);
 }
 
 footer a{
@@ -1119,7 +1123,7 @@ footer a{
 }
 
 footer a:hover{
-   color: #D96B1A;
+   color: gray;
 }
 
 footer .day-hour-inner-container, .icon-time-container{
