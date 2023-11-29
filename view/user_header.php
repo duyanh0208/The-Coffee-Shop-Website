@@ -15,16 +15,16 @@ if(isset($message)){
 
    <section class="flex">
 
-   <a href="home.php">
-            <img class="logo" src="http://localhost/final/Coffee-Shop/images/logopn.png" alt="error">
-        </a>
+   <div class = "homeTitle">
+      <a href="home.php">COFFEE SHOP</a>
+   </div>
 
       <nav class="navbar">
-         <a href="home.php">TRANG CHỦ</a>
-         <a href="about.php">VỀ CHÚNG TÔI</a>
-         <a href="menu.php">THỰC ĐƠN</a>
-         <a href="orders.php">ĐẶT HÀNG</a>
-         <a href="contact.php">LIÊN HỆ</a>
+         <a href="home.php">HOME</a>
+         <a href="about.php">ABOUT US</a>
+         <a href="menu.php">MENU</a>
+         <a href="orders.php">ORDER</a>
+         <a href="contact.php">CONTACT</a>
       </nav>
 
       <div class="icons">
@@ -33,8 +33,13 @@ if(isset($message)){
             $count_cart_items->execute([$user_id]);
             $total_cart_items = $count_cart_items->rowCount();
          ?>
-         <a href="search.php"><i class="fas fa-search"></i></a>
-         <a href="cart.php"><i class="fas fa-shopping-cart"></i><span>(<?= $total_cart_items; ?>)</span></a>
+         <a href="search.php">
+            <i class="fas fa-search"></i>
+         </a>
+         <a href="cart.php">
+            <i class="fas fa-shopping-cart"></i>
+            <span>(<?= $total_cart_items; ?>)</span>
+         </a>
          <div id="user-btn" class="fas fa-user"></div>
          <div id="menu-btn" class="fas fa-bars"></div>
       </div>

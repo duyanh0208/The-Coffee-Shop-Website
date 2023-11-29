@@ -172,8 +172,7 @@ section{
    position: sticky;
    top:0; left:0; right:0;
    z-index: 1000;
-   background-color: var(--bg);
-   /* border-bottom: var(--border); */
+   background-color: var(--black);
 }
 
 .header .flex{
@@ -191,11 +190,18 @@ section{
    /* object-fit: cover; */
 }
 
+.header .flex .homeTitle a {
+   font-weight: bold;
+   font-size: 3.5rem;
+   color:var(--white);
+   margin:0 1.5rem;
+}
+
 
 .header .flex .navbar a{
    font-weight: bold;
    font-size: 1.7rem;
-   color:var(--black);
+   color:var(--white);
    margin:0 1.5rem;
 }
 
@@ -207,7 +213,7 @@ section{
 .header .flex .icons > *{
    margin-left: 1.5rem;
    font-size: 2.5rem;
-   color:var(--black);
+   color:var(--white);
    cursor: pointer;
 }
 
@@ -254,6 +260,7 @@ section{
 .header .flex .profile .account{
    margin-top: 1.5rem;
    font-size: 2rem;
+   border-radius: 10px;
    color:var(--light-color);
 }
 
@@ -324,7 +331,8 @@ section{
 }
 
 .category .box-container .box{
-   border:var(--border);
+   border: 2px solid #000;
+   border-radius: 20px;
    padding:2rem;
    text-align: center;
 }
@@ -405,7 +413,7 @@ section{
 }
 
 .products .box-container .box{
-   border:var(--border);
+   /* border:var(--border); */
    padding: 1.5rem;
    position: relative;
    overflow: hidden;
@@ -414,7 +422,7 @@ section{
 .products .box-container .box img{
    height: 25rem;
    width: 100%;
-   object-fit: contain;
+   /* object-fit: contain; */
    margin-bottom: 1rem;
 }
 
