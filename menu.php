@@ -21,7 +21,7 @@ include 'control/add_cart.php';
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Thực đơn</title>
+   <title>Menu</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -38,23 +38,23 @@ include 'control/add_cart.php';
    <!-- header section ends -->
 
    <div class="heading">
-      <h3>Thực đơn</h3>
-      <p><a href="home.php">Trang chủ</a> <span> / Thực đơn</span></p>
+      <h3>Menu</h3>
+      <p><a href="home.php">Home</a> <span> / Menu</span></p>
    </div>
 
    <!-- menu section starts  -->
 
    <section class="products">
 
-      <h1 class="title">Mới nhất</h1>
+      <h1 class="title">New</h1>
       <div class="filt">
-         <p style="font-weight: bolder;"> Chọn loại sắp xếp
+         <p style="font-weight: bolder;"> Choose sort
          </p>
          <form method="GET">
             <select class="form-sort" id="sort-by-price" name="sort-by-price" style="width:200px">
-               <option value="">Giá</option>
-               <option value="price-asc">Tăng dần</option>
-               <option value="price-desc">Giảm dần</option>
+               <option value="">Price</option>
+               <option value="price-asc">Increasing</option>
+               <option value="price-desc">Decreasing</option>
                <script>
                   const sortSelect = document.getElementById('sort-by-price');
                   sortSelect.addEventListener('change', function() {
@@ -76,7 +76,7 @@ include 'control/add_cart.php';
          <form method="GET">
             <label for="sort-by-name"></label>
             <select class="form-sort" id="sort-by-name" name="sort-by-name">
-               <option value="">Tên</option>
+               <option value="">Name</option>
                <option value="name-asc">A-Z</option>
                <option value="name-desc">Z-A</option>
                <script>
@@ -122,7 +122,7 @@ include 'control/add_cart.php';
                   <div class="name"><?= $fetch_products['name']; ?></div>
                   <div class="flex">
                      <div class="price"><?= $fetch_products['price']; ?></div>
-                     <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2"">
+                     <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
          </div>
       </form>
       <?php

@@ -31,7 +31,7 @@ if(isset($_POST['submit'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Cập nhật địa chỉ</title>
+   <title>Update address</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -47,7 +47,7 @@ if(isset($_POST['submit'])){
 <section class="form-container">
 
    <form action="" method="post">
-      <h3>Địa chỉ của bạn</h3>
+      <h3>Your address</h3>
       <input type="text" class="box" placeholder="phòng" maxlength="50" name="flat">
       <input type="text" class="box" placeholder="số nhà" maxlength="50" name="building">
       <input type="text" class="box" placeholder="khu" maxlength="50" name="area">

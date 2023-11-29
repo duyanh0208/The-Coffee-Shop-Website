@@ -38,7 +38,7 @@ if(isset($_POST['submit'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Đăng nhập</title>
+   <title>Login</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -57,11 +57,11 @@ if(isset($_POST['submit'])){
 <section class="form-container">
    <!-- <div class = "bg-image-login"> -->
    <form action="" method="post">
-      <h3>Đăng nhập</h3>
-      <input type="email" name="email" required placeholder="Nhập tên đăng nhập" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
-      <input type="password" name="pass" required placeholder="Nhập mật khẩu" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
-      <input type="submit" value="Đăng nhập" name="submit" class="btn">
-      <p>Bạn chưa có tài khoản, <a href="register.php">đăng kí ngay</a></p>
+      <h3>Login</h3>
+      <input type="email" name="email" required placeholder="Enter your name" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="password" name="pass" required placeholder="Enter your password" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="submit" value="Submit" name="submit" class="btn">
+      <p>Do not have an account? <a href="register.php">Sign up now</a></p>
    </form>
    <!-- </div> -->
 
